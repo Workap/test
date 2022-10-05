@@ -31,15 +31,51 @@
   display: flex;
   flex-direction: column;
   height: 255px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.contenidoPrincipal-cursos{
+.contenidoPrincipal-cursos {
   display: flex;
   flex-wrap: wrap;
 }
 
-.contenidoPrincipal-cursos-link{
+.contenidoPrincipal-cursos-link {
   display: flex;
   width: 23%;
+}
+
+/* Responsiv */
+
+.headerPrincipal .container {
+  flex-direction: column;
+  align-items: initial;
+  text-align: center;
+}
+
+.headerPrincipal-nav {
+  flex-direction: column;
+}
+
+.contenidoPrincipal-cursos {
+  flex-direction: column;
+}
+.contenidoPrincipal-cursos-link {
+  width: 100%;
+}
+.rodapePrincipal-navMap-list {
+  height: auto;
+}
+.rodapePrincipal-patrocinadores .container {
+  flex-direction: column;
+}
+
+.rodapePrincipal-contatoForm {
+  width: auto;
+}
+.rodapePrincipal-patrocinadores-list {
+  width: 100%;
+  align-items: center;
+}
+.rodapePrincipal-contatoForm-fieldset {
+  justify-content: center;
 }
